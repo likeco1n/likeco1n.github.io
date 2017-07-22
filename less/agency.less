@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
-        .script-font;
+        font-family: sans-serif;
         &:hover,
         &:focus,
         &:active,
@@ -147,6 +147,11 @@ h1, h2, h3, h4, h5, h6 {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
+            img {
+                display: inline;
+                margin-top: -4px;
+                    height: 30px;
+            }
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
@@ -168,13 +173,19 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     // background-image: url('../img/header-bg.jpg');
-    background-image: url('../img/unsplash/avi-richards-183715.jpg');
+    background-image: url('../img/unsplash/tobias-van-schneider-88137.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     .background-cover;
     text-align: center;
     color: white;
+
+    .container {
+        position: relative;
+        z-index: 9;
+    }
+
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;

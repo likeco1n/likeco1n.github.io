@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -212,6 +212,11 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .navbar-custom .navbar-brand img {
+    display: inline;
+    margin-top: -4px;
+    height: 30px;
+  }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
@@ -226,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/unsplash/avi-richards-183715.jpg');
+  background-image: url('../img/unsplash/tobias-van-schneider-88137.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -236,6 +241,10 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+}
+header .container {
+  position: relative;
+  z-index: 9;
 }
 header .intro-text {
   padding-top: 100px;

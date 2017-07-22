@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -29,5 +29,16 @@
             top: 100
         }
     })
+
+    $('#particleground-background').particleground({
+        dotColor: '#fed136'
+    });
+    function resizeParticleGround() {
+        $('#particleground-background')
+            .width($(window).width())
+            .height($(window).height());
+    }
+    $(window).resize(resizeParticleGround)
+    resizeParticleGround();
 
 })(jQuery); // End of use strict
