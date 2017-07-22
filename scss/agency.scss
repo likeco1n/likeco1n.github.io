@@ -167,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    // background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/unsplash/avi-richards-183715.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -288,8 +289,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -563,25 +564,25 @@ section#contact {
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
-    }
-    :-moz-placeholder { /* Firefox 18- */
+   }
+   :-moz-placeholder { /* Firefox 18- */
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
-    }
-    ::-moz-placeholder {  /* Firefox 19+ */
+   }
+   ::-moz-placeholder {  /* Firefox 19+ */
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
-    }
-    :-ms-input-placeholder {  
+   }
+   :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
-    }
-    .text-danger {
-        color: $theme-danger;
-    }
+   }
+   .text-danger {
+    color: $theme-danger;
+}
 }
 
 // Footer
@@ -704,8 +705,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;
