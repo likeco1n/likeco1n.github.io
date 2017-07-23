@@ -198,7 +198,6 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fed136;
 }
 .navbar-custom .navbar-nav span.active {
-  display: inline-block;
   background-color: #fed136;
   padding: 16px;
   border-radius: 3px;
@@ -235,6 +234,11 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav span.active {
+    display: inline-block;
   }
 }
 header {
@@ -326,6 +330,28 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+#big-timer .unit {
+  border-radius: 3px;
+  border: 2px solid black;
+}
+#big-timer .unit .number {
+  font-size: 28px;
+  font-family: courier;
+}
+#big-timer .unit .desktop-label {
+  display: none;
+}
+@media (min-width: 767px) {
+  #big-timer .unit .number {
+    font-size: 50px;
+  }
+  #big-timer .unit .desktop-label {
+    display: block;
+  }
+  #big-timer .unit .mobile-label {
+    display: none;
+  }
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;

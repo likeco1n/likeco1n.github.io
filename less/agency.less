@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @theme-primary;
     }
     .navbar-nav span.active {
-        display: inline-block;
+        // display: inline-block;
         background-color: @theme-primary;
         padding: 16px;
         border-radius: 3px;
@@ -175,6 +175,12 @@ h1, h2, h3, h4, h5, h6 {
         .navbar-brand {
             font-size: 1.5em;
         }
+    }
+}
+
+@media(max-width:768px) {
+    .navbar-nav span.active {
+        display: inline-block;
     }
 }
 
@@ -276,6 +282,38 @@ section {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+// Timer Section
+
+#big-timer {
+    .unit {
+        border-radius: 3px;
+        border: 2px solid black;
+        .number {
+            font-size: 28px;
+            font-family: courier;
+        }
+        .desktop-label {
+            display: none;
+        }
+    }
+}
+
+@media(min-width:767px) {
+    #big-timer {
+        .unit {
+            .number {
+                font-size: 50px;
+            }
+            .desktop-label {
+                display: block;
+            }
+            .mobile-label {
+                display: none;
+            }
+        }
+    }
 }
 
 // Portfolio Section
