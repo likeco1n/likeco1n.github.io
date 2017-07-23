@@ -45,7 +45,7 @@
     // Countdown timer
     $('div#clock').countdown('2017/07/30', function(event) {
         $(this).text(
-          event.strftime('%D days %H:%M:%S')
+          event.strftime('%D days %H.%M.%S')
         );
       });
 
