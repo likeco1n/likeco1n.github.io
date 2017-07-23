@@ -92,6 +92,11 @@ h1, h2, h3, h4, h5, h6 {
         &.active {
             color: darken(@theme-primary, 10%);
         }
+        img {
+            display: inline;
+            margin-top: -4px;
+                height: 30px;
+        }
     }
     .navbar-collapse {
         border-color: fade(white, 2%);
@@ -127,6 +132,12 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
         background-color: @theme-primary;
     }
+    .navbar-nav span.active {
+        background-color: @theme-primary;
+        padding: 16px;
+        border-radius: 3px;
+        color: @gray-dark;
+    }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
         color: white;
@@ -147,11 +158,6 @@ h1, h2, h3, h4, h5, h6 {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
-            img {
-                display: inline;
-                margin-top: -4px;
-                    height: 30px;
-            }
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
@@ -174,9 +180,9 @@ h1, h2, h3, h4, h5, h6 {
 header {
     // background-image: url('../img/header-bg.jpg');
     // background-image: url('../img/unsplash/tobias-van-schneider-small.jpg');
-    background-image: url('../img/unsplash/bg.jpg');
+    background-image: url('../img/patterns/dark-triangles/dark-triangles.png');
     background-color: @gray-dark;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
     background-position: center center;
     .background-cover;

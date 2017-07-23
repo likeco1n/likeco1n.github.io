@@ -35,15 +35,17 @@
         dotColor: '#fed136'
     });
     function resizeParticleGround() {
-        $('#particleground-background')
-            .width($('header').width())
-            .height($('header').height());
+        setTimeout(function () {
+            $('#particleground-background')
+                .width($('header').width())
+                .height($('header').height());
+        })
     }
     $(window).resize(resizeParticleGround)
     resizeParticleGround();
 
     // Countdown timer
-    $('div#clock').countdown('2017/07/30', function(event) {
+    $('#clock').countdown('2017/07/30', function(event) {
         $(this).text(
           event.strftime('%D days %H.%M.%S')
         );
