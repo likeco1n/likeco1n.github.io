@@ -45,7 +45,12 @@
     resizeParticleGround();
 
     // Countdown timer
-    $('#clock').countdown('2017/07/30', function(event) {
+    $('#small-timer').countdown('2017/07/30', function(event) {
+        $(this).text(
+          event.strftime('%D days %H:%M:%S')
+        );
+      });
+    $('#big-timer').countdown('2017/07/30', function(event) {
         $(this).text(
           event.strftime('%D days %H.%M.%S')
         );
