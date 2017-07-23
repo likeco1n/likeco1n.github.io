@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
             display: inline;
             margin-top: -4px;
                 height: 30px;
+                width: 30px;
         }
     }
     .navbar-collapse {
@@ -132,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @theme-primary;
     }
     .navbar-nav span.active {
+        display: inline-block;
         background-color: @theme-primary;
         padding: 16px;
         border-radius: 3px;
@@ -197,6 +199,9 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+        img {
+            width: 100%;
+        }
         .intro-lead-in {
             .serif-font;
             font-size: 18px;

@@ -163,6 +163,7 @@ fieldset[disabled] .btn-xl.active {
   display: inline;
   margin-top: -4px;
   height: 30px;
+  width: 30px;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -197,6 +198,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fed136;
 }
 .navbar-custom .navbar-nav span.active {
+  display: inline-block;
   background-color: #fed136;
   padding: 16px;
   border-radius: 3px;
@@ -256,6 +258,9 @@ header .container {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+}
+header .intro-text img {
+  width: 100%;
 }
 header .intro-text .intro-lead-in {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
