@@ -30,6 +30,7 @@
         }
     })
 
+    // particle background
     $('#particleground-background').particleground({
         dotColor: '#fed136'
     });
@@ -40,5 +41,13 @@
     }
     $(window).resize(resizeParticleGround)
     resizeParticleGround();
+
+    // Countdown timer
+    $('div#clock').countdown('2017/07/30', function(event) {
+        $(this).text(
+          event.strftime('%D days %H:%M:%S')
+        );
+      });
+
 
 })(jQuery); // End of use strict
