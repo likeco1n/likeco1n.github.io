@@ -160,6 +160,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand.active {
   color: #fec503;
 }
+.navbar-custom .navbar-brand img {
+  display: inline;
+  margin-top: -4px;
+  height: 30px;
+}
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
@@ -192,6 +197,12 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #fed136;
 }
+.navbar-custom .navbar-nav span.active {
+  background-color: #fed136;
+  padding: 16px;
+  border-radius: 3px;
+  color: #333333;
+}
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
@@ -212,11 +223,6 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-custom .navbar-brand img {
-    display: inline;
-    margin-top: -4px;
-    height: 30px;
-  }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
@@ -231,9 +237,9 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/unsplash/bg.jpg');
+  background-image: url('../img/patterns/dark-triangles/dark-triangles.png');
   background-color: #333333;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
