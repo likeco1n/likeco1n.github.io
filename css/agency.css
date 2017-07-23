@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -56,7 +56,7 @@ h6 {
   background-color: #222222;
 }
 .btn-primary {
-  color: white;
+  color: #333333;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,7 +68,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
+  color: #333333;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -97,10 +97,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #fed136;
-  background-color: white;
+  background-color: #333333;
 }
 .btn-xl {
-  color: white;
+  color: #333333;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -115,7 +115,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
+  color: #333333;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -144,7 +144,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #fed136;
-  background-color: white;
+  background-color: #333333;
 }
 .navbar-custom {
   background-color: #222222;
@@ -152,7 +152,6 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -173,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: #333333;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -194,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
+  color: #333333;
   background-color: #fed136;
 }
 .navbar-custom .navbar-nav span.active {
@@ -205,7 +204,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
+  color: #333333;
   background-color: #fec503;
 }
 @media (min-width: 768px) {
@@ -259,13 +258,13 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-description {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
@@ -284,7 +283,7 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
@@ -308,7 +307,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -375,7 +374,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -699,7 +698,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }

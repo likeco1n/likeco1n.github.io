@@ -64,13 +64,13 @@ h1, h2, h3, h4, h5, h6 {
 // Restyled Primary Buttons
 
 .btn-primary {
-    .button-variant(white; @theme-primary; @theme-primary);
+    .button-variant(@gray-dark; @theme-primary; @theme-primary);
     .heading-font;
     font-weight: 700;
 }
 
 .btn-xl {
-    .button-variant(white; @theme-primary; @theme-primary);
+    .button-variant(@gray-dark; @theme-primary; @theme-primary);
     .heading-font;
     font-weight: 700;
     border-radius: 3px;
@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         &:hover,
         &:focus,
         &:active,
@@ -105,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @theme-primary;
         border-color: @theme-primary;
         .heading-font;
-        color: white;
+        color: @gray-dark;
         font-size: 12px;
         &:hover,
         &:focus {
@@ -129,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-nav>.active>a {
         border-radius: 0;
-        color: white;
+        color: @gray-dark;
         background-color: @theme-primary;
     }
     .navbar-nav span.active {
@@ -140,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
-        color: white;
+        color: @gray-dark;
         background-color: darken(@theme-primary, 10%);
     }
 }
