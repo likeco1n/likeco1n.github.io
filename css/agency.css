@@ -342,6 +342,9 @@ section h3.section-subheading {
 #big-timer .unit .desktop-label {
   display: none;
 }
+#big-timer .unit .mobile-label {
+  display: block;
+}
 @media (min-width: 767px) {
   #big-timer .unit .number {
     font-size: 50px;
