@@ -35,8 +35,8 @@
     });
     function resizeParticleGround() {
         $('#particleground-background')
-            .width($(window).width())
-            .height($(window).height());
+            .width($('header').width())
+            .height($('header').height());
     }
     $(window).resize(resizeParticleGround)
     resizeParticleGround();
