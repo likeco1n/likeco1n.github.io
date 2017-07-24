@@ -62,5 +62,7 @@
         }
       });
 
+    console.info('hi');
+
 })(jQuery); // End of use strict
 
