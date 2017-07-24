@@ -1,6 +1,8 @@
 // Contact Form Scripts
 
 $(function() {
+    // TODO: disabled for now, reenable
+    return false;
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
