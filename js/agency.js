@@ -45,6 +45,7 @@
         })
     }
     $(window).resize(resizeParticleGround)
+    setTimeout(resizeParticleGround, 1500);
     resizeParticleGround();
 
     // Countdown timer
